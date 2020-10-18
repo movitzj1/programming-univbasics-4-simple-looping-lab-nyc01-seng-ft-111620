@@ -21,3 +21,10 @@ def output_array(array)
     count += 1
   end
 end
+
+def return_string_array(array)
+  count = 0
+  while count < lenth.array do
+    count += 1
+    return array[count]
+  end
